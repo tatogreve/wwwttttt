@@ -12,7 +12,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: white;
     overflow: hidden;
 }
 
@@ -25,11 +25,11 @@ img {
 }
 
 /* Adjust for vertical screens */
-/*@media (orientation: portrait) {
+@media (orientation: portrait) {
     img {
         width: 100vw;
         height: auto;
         max-height: 100vh;
         object-fit: contain;
     }
-}*/
+}
